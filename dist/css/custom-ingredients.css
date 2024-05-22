@@ -1,0 +1,27 @@
+.red-color {
+	color:#d43f3a;
+}
+
+.green-color {
+	color: #87c991;
+}
+
+.blue-color {
+	color:#3ab0d4;
+}
+
+#table-upper-heading {
+	margin-top: -5%;
+}
+
+.float-left {
+	float:left;
+}
+
+.float-right {
+	float:right;
+}
+
+.text-align-left {
+	text-align: left;
+}

@@ -1,0 +1,71 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.blue {
+    color: #338bde;
+}
+
+.transparent-component {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-brand{
+    padding: 0px;
+    margin-left: 5px;
+}
+
+.btn-profile {
+    background-color: rgba(0, 0, 0, 0);
+    color: #4cae4c;
+}
+
+.btn-logout {
+    background-color: rgba(0, 0, 0, 0);
+    color: #d43f3a;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.jumbotron h1, h2, h3{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.jumbotron .btn {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
